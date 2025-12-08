@@ -14,7 +14,7 @@ This project was created as part of [Hack Club Blueprint](https://blueprint.hack
 - **OLED Display**: Shows layer status and keyboard info
 - **Rotary Encoder**: Volume control
 - **KMK Firmware**: Fully programmable with Python
-- **TRRS Connection**: Reliable split communication, with proper ESD protection.
+- **3.5mm Audio Connection**: Split communication, with proper ESD protection.
 - **Hotswap Sockets**: Easy switch replacement
 
 ## Keymap
@@ -51,8 +51,8 @@ The case is designed using Shapr3D. The design files are included in the reposit
 ## Files
 
 - `firmware/` - KMK firmware source code
-- `PCB/` - EasyEDA PCB design files
-- `CAD/` - 3D models and CAD files (there's none yet, idk if there will be, this is not easy for me xD)
+- `PCB/` - EasyEDA PCB project files
+- `CAD/` - 3D models for the keyboard case
 - `assets/` - Build photos and documentation (mostly screenshots. Actual renders and image exports available in ../PCB/)
 
 ## Bill of Materials
