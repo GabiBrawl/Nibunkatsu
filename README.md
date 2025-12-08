@@ -38,10 +38,15 @@ The firmware is written in Python using the KMK framework. It will support:
 ## Hardware
 
 - **Microcontroller**: ESP32-S3 N8R4
-- **Switches**: Cherry MX compatible hotswap sockets
-- **Connection**: TRRS cable for split communication
+- **Switches**: Cherry MX compatible hotswap sockets, personally I'll be using the Gateron Banana low profile switches
+- **Connection**: 3.5mm audio cable for split communication :P
 - **Display**: 0.96" OLED screen
 - **LEDs**: WS2812C-2020 RGB LEDs
+
+## 3D Case Model
+The case is designed using Shapr3D. The design files are included in the repository. Both halves are available in .3mf and .step formats!
+
+![Day 5 Image 5](assets/day5image5.png)
 
 ## Files
 
@@ -49,6 +54,9 @@ The firmware is written in Python using the KMK framework. It will support:
 - `PCB/` - EasyEDA PCB design files
 - `CAD/` - 3D models and CAD files (there's none yet, idk if there will be, this is not easy for me xD)
 - `assets/` - Build photos and documentation (mostly screenshots. Actual renders and image exports available in ../PCB/)
+
+## Bill of Materials
+A detailed bill of materials (BOM) can be found in the `bom.csv` file, listing all components required to build the keyboard.
 
 ## License
 

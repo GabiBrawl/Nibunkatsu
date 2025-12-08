@@ -25,7 +25,7 @@ Began working on the right side schematic and pcb design. Added custom artwork t
 ![Day 3 Image 3](assets/day3image3.png)
 
 
-## 12/06/2025 - Final design
+## 12/06/2025 - Final PCB design
 
 Finalized both sides of the schematic and pcb design. Prepared files for manufacturing.
 Only on PCB planning and design I easily spent around 30 hours, in those 4 days.
@@ -35,3 +35,11 @@ Only on PCB planning and design I easily spent around 30 hours, in those 4 days.
 ![Day 4 Image 3](assets/day4image3.png)
 ![Day 4 Image 4](assets/day4image4.png)
 ![Day 4 Image 5](assets/day4image5.png)
+
+## 12/08/2025 - 3D CAD Modeling
+
+Made the 3D model for both sides of Nibunkatsu using Shapr3D! This is my first time modeling something in 3D, and I'm absolutely impressed by the result!! This is so much easier than I've ever expected it to be :D
+
+![Day 5 Image 4](assets/day5image4.png)
+![Day 5 Image 5](assets/day5image5.png)
+![Day 5 Image 8](assets/day5image8.png)
