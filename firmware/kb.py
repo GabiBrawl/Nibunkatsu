@@ -6,9 +6,8 @@ from kmk.modules.split import Split, SplitType, SplitSide
 class NibunkatsuOne(KMKKeyboard):
     def __init__(self):
         # --- Matrix Setup ---
-        # Pins from your Schematic (IO4-IO7 Rows, IO15-IO14 Cols)
-        self.row_pins = (board.IO4, board.IO5, board.IO6, board.IO7)
-        self.col_pins = (board.IO15, board.IO16, board.IO17, board.IO18, board.IO21, board.IO14)
+        self.row_pins = (board.IO4, board.IO5, board.IO6, board.IO7, board.IO46)
+        self.col_pins = (board.IO15, board.IO16, board.IO17, board.IO18, board.IO21, board.IO14, board.IO13)
         
         # You confirmed: Cathode to Row -> ROW2COL
         self.diode_orientation = DiodeOrientation.ROW2COL
@@ -26,12 +25,10 @@ class NibunkatsuOne(KMKKeyboard):
         self.modules.append(self.split)
         
         # --- RGB Data Pin ---
-        # We moved this to IO10 to save USB
-        self.rgb_pixel_pin = board.IO10
+        self.rgb_pixel_pin = board.IO3
         
         # --- Encoder Pins (Right Side) ---
-        # Update these if you routed them differently!
-        self.encoder_a = board.IO8 
+        self.encoder_a = board.IO46
         self.encoder_b = board.IO9 
 
         # Call the parent init
