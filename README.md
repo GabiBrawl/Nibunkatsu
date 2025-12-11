@@ -61,7 +61,22 @@ There are 4 total models to be printed: Left case, Right case, Left plate and Ri
 - `assets/` - Most build photos and documentation
 
 ## Bill of Materials
-A detailed bill of materials (BOM) can be soon found in the `bom.csv` file, listing all components required to build the keyboard, along with prices and the pages I used to fetch them.
+The total projected cost for the build is approximately €175.30. Below is the breakdown of the major components used in this revision.
+
+| Component | Part / Model | Qty | Notes |
+| :--- | :--- | :--- | :--- |
+| **Microcontroller** | ESP32-S3-WROOM-1-N4R2 | 3 | Dual-core MCU handling split logic |
+| **Switches** | Gateron Low Profile (Banana) | 54 | Tactile, Hot-Swap compatible |
+| **Keycaps** | Custom PBT Low Profile Set | 1 | Double-shot PBT, 144 keys |
+| **PCB Fabrication** | Custom FR4 PCB (Left+Right) | 5 | Manufactured via JLCPCB |
+| **Lighting** | WS2812C-2020 RGB LEDs | 55 | Per-key RGB Underglow |
+| **Connectivity** | TRRS Cable (Coiled/Braided) | 1 | Premium interconnect cable for split comms |
+| **Sockets** | Kailh Hot-Swap Sockets | 100 | Solder-free switch replacement |
+| **Display** | OLED Display (0.91") | 1 | 128x32 pixel status indication |
+| **Controls** | PEC11 Rotary Encoder | 1 | For volume/scroll control |
+| **Misc Electronics** | Diodes, Caps, LDOs, Resistors | ~150 | Logic support, power regulation, ESD protection |
+
+A complete CSV with links to specific suppliers can be found in bom.csv.
 
 ## License
 Idk what I'm doing here yet, but for now:
