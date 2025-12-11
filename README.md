@@ -1,9 +1,10 @@
-# Nibunkatsu One
-## A Split Mechanical Keyboard Built with Hack Club Blueprint
+# Nibunkatsu One ✦ にぶんかつ
+### A Split Mechanical Keyboard Built with Hack Club Blueprint
 
 ![Nibunkatsu One](assets/hero2.png)
+Nibunkatsu One is a compact, ergonomic split keyboard designed for everyday typing and programming. Built using the ESP32-S3 microcontroller with KMK firmware, featuring per-key RGB underglow, an OLED display, and a rotary encoder.
 
-にぶんかつ ✦ Nibunkatsu One is a compact, ergonomic split keyboard designed for everyday typing and programming. Built using the ESP32-S3 microcontroller with KMK firmware, it features per-key RGB underglow, an OLED display, and a rotary encoder.
+> にぶんかつ ✦ Nibunkatsu comes from the Japanese word for splitting in half.
 
 This project was created as part of [Hack Club Blueprint](https://blueprint.hackclub.com), a program that empowers high school students to design, build, and ship real hardware products.
 
