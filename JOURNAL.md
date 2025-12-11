@@ -43,3 +43,18 @@ Made the 3D model for both sides of Nibunkatsu using Shapr3D! This is my first t
 ![Day 5 Image 4](assets/day5image4.png)
 ![Day 5 Image 5](assets/day5image5.png)
 ![Day 5 Image 8](assets/day5image8.png)
+
+## 12/10/2025 - 0.91 inch display UI design and testing
+
+Made a sample UI design that fits the vertical layout of the 0.91 inch display, and tested it on an actual display module. I looked up online and didn't find anyone using this display in vertical orientation, so I had to improvise a bit. But it is turning out great! This is by no means the final, but gives a taste. :P
+Everything was designed using lopaka.app, which is an amazing tool for making pixel art and small UIs for displays like this.
+
+![Display Image 1](firmware/Splash%20Screen%20Mockup.png)
+![Display Image 2](firmware/Vertical%20Screen%20Mockup.png)
+
+## 12/11/2025 - 3D Model Improvements
+After procastinating for a while, I finally decided to improve on the 3D models more. Added support cilinders to hold the PCBs in the right height, and made the plates where the switches will be mounted on! Now there are 4 models to be printed: Left case, Right case, Left plate and Right plate.
+
+![Day 6 Image 1](assets/day6image1.png)
+![Day 6 Image 2_1](assets/day6image2_1.png)
+![Day 6 Image 4](assets/day6image4.png)
