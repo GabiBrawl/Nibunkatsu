@@ -79,11 +79,21 @@ The total projected cost for the build is approximately €175.30. Below is the 
 A complete CSV with links to specific suppliers can be found in bom.csv.
 
 ## License
-Idk what I'm doing here yet, but for now:
 
-- **Hardware (PCB & CAD)**: CERN Open Hardware Licence v2.0
-- **Firmware**: MIT License
-- **Assets**: Creative Commons Attribution-ShareAlike 4.0 International
+This project is open-source and utilizes a three-part licensing model to ensure the appropriate protection for hardware, software, and documentation.
+
+| Component | License | Description |
+| :--- | :--- | :--- |
+| **Hardware** | [CERN-OHL-W-2.0](LICENSE-hardware) | Covers the PCB designs, schematics, and mechanical CAD files. |
+| **Firmware** | [MIT License](LICENSE-firmware) | Covers the Python/KMK firmware and source code. |
+| **Documentation** | [CC BY-SA 4.0](LICENSE-assets) | Covers the assets, photos, diagrams, and written guides. |
+
+### Why three licenses?
+* **Hardware (CERN OHL):** Unlike software licenses, this explicitly covers physical manufacturing rights, ensuring that if someone builds or modifies this board, they must attribute the original design.
+* **Firmware (MIT):** A standard permissive software license that allows the code to be easily reused or integrated into other projects.
+* **Assets (CC BY-SA):** Ensures that the photos and diagrams are attributed if shared or used in other media.
+
+**Note:** Third-party dependencies may have different licenses associated with them. Please refer to their respective repositories for license information.
 
 ## Acknowledgments
 
