@@ -6,7 +6,7 @@ Diode,BAT54S,5,BAT54S,0.11,0.55,,https://www.digikey.pt/en/products/detail/diote
 Switch,SW_Gateron_LowProfile_HotSwap_PTH1,54,N/A,0.4,31,,https://www.gateron.co/products/gateron-low-profile-mechanical-switch-set?variant=40557145784409
 Switch,B3U-1000P,5,B3U-1000P,0.81,4.05,,https://www.digikey.pt/en/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338
 Encoder,PEC11,1,N/A,1.9,1.9,,https://www.digikey.pt/en/products/detail/bourns-inc/PEC11R-4220F-S0024/4499660
-Connector/Jack,PJ-324M,2,PJ-324M,0.45,2.3,,https://pt.aliexpress.com/item/1005010212164993.html
+Connector/Jack,PJ-324M,2,PJ-324M,0.45,6.24,,https://pt.aliexpress.com/item/1005010212164993.html
 Connector,USB4085-GF-A,2,USB4085-GF-A,0.76,1.52,,https://www.digikey.pt/en/products/detail/gct/USB4085-GF-A/9859662?s=N4IgTCBcDaIKoGUBCAWADADgKwFoDiAYjgIIgC6AvkA
 Power Management,AP2112K-3.3TRG1,3,AP2112K-3.3TRG1,0.35,1.05,,https://www.digikey.pt/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746?s=N4IgTCBcDaIIIAUwEZlgNIFoDMA6bAKgEoDiyIAugL5A
 Capacitor,1nF,4,N/A,0.3,1.2,,https://www.digikey.pt/en/products/detail/kemet/C0603X102K5RAC3316/10315783
@@ -17,11 +17,11 @@ Capacitor,10uF,8,N/A,0.07,0.56,,https://www.digikey.pt/en/products/detail/samsun
 Capacitor,100nF,20,N/A,0.125,2.5,,https://www.digikey.pt/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486
 Resistor,10K,8,N/A,0.09,0.72,,https://www.digikey.pt/en/products/detail/yageo/RC0603FR-0710KL/726880
 Resistor,22,8,N/A,0.12,0.96,,https://www.digikey.pt/en/products/detail/rohm-semiconductor/ESR03EZPJ220/1983463
-Display,0.91 inch oled white,1,,2.84,2.84,,https://pt.aliexpress.com/item/1005008918700196.html
+Display,0.91 inch oled white,1,,3.87,3.87,,https://pt.aliexpress.com/item/1005008918700196.html
 Keycaps,MX Low Profile ,1,,25.18,25.18,,https://pt.aliexpress.com/item/1005008279484599.html
 Kailh Hotswap Sockets,50 pack,2,,7.95,15.9,,https://splitkb.com/products/kailh-hotswap-sockets
 TRRS Cable,,1,,2.65,2.65,,https://pt.aliexpress.com/item/1005009181119614.html
 3D Prints,2 case sides of the keyboard and 2 plates,1,,,0,,
 PCB,,1,,35.08,35.08,,
 ,,,,,,,
-,,,,Grand Total:,158.94,,
+,,,,Grand Total:,163.91,,
