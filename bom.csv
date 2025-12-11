@@ -17,12 +17,13 @@ Capacitor,10uF,8,N/A,0.07,0.56,,https://www.digikey.pt/en/products/detail/samsun
 Capacitor,100nF,20,N/A,0.125,2.5,,https://www.digikey.pt/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486
 Resistor,10K,8,N/A,0.09,0.72,,https://www.digikey.pt/en/products/detail/yageo/RC0603FR-0710KL/726880
 Resistor,22,8,N/A,0.12,0.96,,https://www.digikey.pt/en/products/detail/rohm-semiconductor/ESR03EZPJ220/1983463
-Display,0.91 inch,1,,2.84,2.84,,https://pt.aliexpress.com/item/1005008918700196.html
+Display,0.91 inch oled white,1,,2.84,2.84,,https://pt.aliexpress.com/item/1005008918700196.html
 Keycaps,MX Low Profile ,1,,25.18,25.18,,https://pt.aliexpress.com/item/1005008279484599.html
-3D Prints,2 case sides of the keyboard and 2 plates,1,,,0,,
-PCB,,1,,35.08,35.08,,
 Kailh Hotswap Sockets,50 pack,2,,7.95,15.9,,https://splitkb.com/products/kailh-hotswap-sockets
 TRS Cable,,1,,19.01,19.01,,https://pt.aliexpress.com/item/1005005658461370.html
+3D Prints,2 case sides of the keyboard and 2 plates,1,,,0,,
+PCB,,1,,35.08,35.08,,
 ,,,,,,,
 ,,,,,,,
+
 ,,,,Grand Total:,175.3,,
