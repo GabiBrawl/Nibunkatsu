@@ -80,7 +80,7 @@ Firmware source code is located in `firmware/`.
 
 ## Bill of Materials
 
-**Total estimated cost:** €175.30
+**Total estimated cost:** €153.11
 
 | Component | Part / Model | Qty | Notes |
 | :--- | :--- | :--- | :--- |
