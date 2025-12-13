@@ -5,31 +5,32 @@
 
 > にぶんかつ ✦ Nibunkatsu comes from the Japanese word for splitting in half.
 
-Nibunkatsu One is a compact, ergonomic split keyboard designed for everyday typing and programming. Built using the ESP32-S3 microcontroller with KMK firmware, featuring per-key RGB underglow, an OLED display, and a rotary encoder.
+Nibunkatsu is a compact split keyboard for typing and programming. I'll be using the ESP32-S3 microcontroller with KMK firmware, featuring RGB under the keys, an OLED display on the left half, and a rotary encoder in the right half!!
 
-This project was created as part of [Hack Club Blueprint](https://blueprint.hackclub.com), a program that empowers high school students to design, build, and ship real hardware products.
+This project was created as part of the [Hack Club Blueprint](https://blueprint.hackclub.com) program that empowers high school students to design and build real hardware projects.
 
-**Project Stats:** ~70 hours over 1 week of active work and learning.
+**Project Stats:** ~70 hours over the course of 1 week of active work and learning!
 
 ---
 
 ## Features
 
-- **Split Design** — 5x7 layout per half for comfortable typing
+- **Split Design** — 5x7 layout per half, including a number row
 - **RGB Underglow** — 28 individually addressable WS2812C LEDs per half
-- **OLED Display** — 0.91" screen showing layer status and keyboard info
-- **Rotary Encoder** — PEC11 encoder for volume/scroll control
-- **Hotswap Sockets** — Easy switch replacement without soldering
-- **KMK Firmware** — Fully programmable with Python
-- **TRRS Connection** — 3.5mm audio cable for split communication with ESD protection
+- **OLED Display** — 0.91" display for layer status and other keyboard info
+- **Rotary Encoder** — PEC11 encoder for volume control and maybe more?
+- **Hotswap Sockets** — Simple switch replacement without constant soldering
+- **KMK Firmware** — Programmable using Python
+- **TRRS Connection** — A 3.5mm audio cable for split communication between both halves. Also with ESD protection, protecting the MCU's TX/RX pins.
 
 ## Repository Structure
 
 ```
-├── firmware/     - KMK firmware source code (Python)
+├── firmware/     - KMK firmware code and configuration
 ├── PCB/          - EasyEDA PCB project files and schematics
-├── CAD/          - 3D models for keyboard case (.3mf format)
-└── assets/       - Build photos and documentation
+├── CAD/          - 3D models for the keyboard case and plates (.3mf and .step)
+└── assets/       - Work screenshots and photos 
+├── bom.csv       - Bill of Materials with supplier links, prices and quantities
 ```
 
 ---
@@ -37,20 +38,19 @@ This project was created as part of [Hack Club Blueprint](https://blueprint.hack
 ## Hardware Specifications
 
 ### Core Components
-- **Microcontroller:** ESP32-S3-WROOM-1-N4R2 (dual-core)
-- **Switches:** Cherry MX compatible hotswap sockets (Gateron Banana low profile)
-- **Keycaps:** Custom PBT low profile set
-- **RGB LEDs:** WS2812C-2020 (55 total)
+- **Microcontroller:** ESP32-S3-WROOM-1-N4R2
+- **Switches:** Cherry MX compatible hotswap sockets (I'll be personally using Gateron Banana low profile switches)
+- **RGB LEDs:** WS2812C-2020
 - **Display:** 0.91" OLED (128×32 pixels)
-- **Encoder:** PEC11 rotary encoder
-- **Connection:** TRRS cable for split communication
+- **Encoder:** PEC11 rotary encoder with 24 steps and push button
+- **Connection:** TRRS cable for communication between halves
 
 ### Case & Mounting
-The case is designed in Shapr3D with 4 printable models:
+The case was designed in Shapr3D with 4 printable models:
 - Left case + Left plate
 - Right case + Right plate
 
-Available in `.3mf` format in the `CAD/` directory.
+Bo th available in `.3mf` and `.step` formats positioned in the [`CAD/`](CAD/) directory!
 
 ![3D Case Model](assets/day6image2_1.png)
 
@@ -58,44 +58,38 @@ Available in `.3mf` format in the `CAD/` directory.
 
 ## Keymap
 
-3-layer layout configuration:
+3-layer configuration:
 
-- **Layer 0 (Base):** QWERTY layout with modifiers
-- **Layer 1 (Numbers):** Number row and symbols
+- **Layer 0 (Base):** QWERTY layout with a number row
+- **Layer 1 (Shortcuts):** Some operating system shortcuts maybe
 - **Layer 2 (Navigation):** Arrow keys and media controls
 
 ## Firmware
 
-Written in Python using the [KMK firmware framework](https://github.com/KMKfw/kmk_firmware):
+Written in Python using the [KMK firmware framework](https://github.com/KMKfw/kmk_firmware).
 
-- Split communication via UART
-- RGB lighting effects and animations
-- OLED display integration
-- Rotary encoder support
-- Multiple customizable keymap layers
-
-Firmware source code is located in `firmware/`.
+The firmware source code is available in [`firmware/`](firmware/).
 
 ---
 
 ## Bill of Materials
 
-**Total estimated cost:** €153.11
+**Total cost:** €153.11
 
-| Component | Part / Model | Qty | Notes |
+| Component Type | Part Name | Qty | Other Notes |
 | :--- | :--- | :--- | :--- |
-| **Microcontroller** | ESP32-S3-WROOM-1-N4R2 | 3 | Dual-core MCU handling split logic |
-| **Switches** | Gateron Low Profile (Banana) | 54 | Tactile, hot-swap compatible |
-| **Keycaps** | Custom PBT Low Profile Set | 1 | Double-shot PBT, 144 keys |
-| **PCB Fabrication** | Custom FR4 PCB (Left+Right) | 5 | Manufactured via JLCPCB |
-| **Lighting** | WS2812C-2020 RGB LEDs | 55 | Per-key RGB underglow |
-| **Connectivity** | TRRS Cable (Coiled/Braided) | 1 | Premium interconnect cable |
+| **Microcontroller** | ESP32-S3-WROOM-1-N4R2 | 3 | MCU |
+| **Switches** | Gateron Low Profile (Banana) | 54 | Tactile yet silent |
+| **Keycaps** | PBT Low Profile | 1 | Double-shot PBT, getting shine-through letters |
+| **PCB Fabrication** | Custom PCB | 5 | via JLCPCB |
+| **RGB LEDs** | WS2812C-2020 | 55 | Per-key RGB underglow |
+| **Connectivity** | TRRS Cable | 1 | Interconnect cable |
 | **Sockets** | Kailh Hot-Swap Sockets | 100 | Solder-free switch replacement |
-| **Display** | OLED Display (0.91") | 1 | 128×32 pixel status display |
-| **Controls** | PEC11 Rotary Encoder | 1 | Volume/scroll control |
-| **Misc Electronics** | Diodes, Caps, LDOs, Resistors | ~150 | Logic, power regulation, ESD protection |
+| **Display** | 0.91" OLED | 1 | 128×32 pixel status display |
+| **Controls** | PEC11 Rotary Encoder | 1 | Volume control |
+| **Misc Electronics** | Diodes, Capacitors, LDOs, Resistors | ~150 | Logic, power regulation, ESD protection |
 
-Complete CSV with supplier links: [`bom.csv`](bom.csv)
+The complete CSV with supplier links is available here: [`bom.csv`](bom.csv)
 
 ---
 
@@ -111,11 +105,11 @@ This project uses a three-part licensing model to appropriately protect hardware
 
 ### Why Three Licenses?
 
-- **Hardware (CERN OHL):** Explicitly covers physical manufacturing rights and ensures attribution for derivative designs
+- **Hardware (CERN OHL):** Covers physical manufacturing rights and ensures attribution for derivative designs
 - **Firmware (MIT):** Permissive software license allowing easy reuse and integration
-- **Assets (CC BY-SA):** Ensures proper attribution for media and documentation
+- **Assets (CC BY-SA):** Ensures proper attribution for media assets and documentation
 
-> **Note:** Third-party dependencies may have different licenses. Please refer to their respective repositories for license information.
+> **Note:** Third-party project dependencies may have different licenses. Please refer to their respective repositories for licensing information.
 
 ---
 
